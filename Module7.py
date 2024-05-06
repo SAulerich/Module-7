@@ -19,7 +19,7 @@ class CourseSchedule:
             'CSC102': '9:00 a.m.',
             'CSC103': '10:00 a.m.',
             'NET110': '11:00 a.m.',
-            'COM241': '11:00 p.m.'
+            'COM241': '1:00 p.m.'
         }
     def get_course_info(self, courseNumber):
         if courseNumber in self.roomNumbers:
